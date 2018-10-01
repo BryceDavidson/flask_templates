@@ -28,3 +28,16 @@ and will be referenced by other template files to include those snippets.
 ```
 {% include 'includes/_somehtml.html' %}
 ```
+
+flask syntax
+------------
+LOGIC:
+#### can hold variables, is "dynamic" data within html
+```
+{%  %}
+```
+VALUES:
+#### for inserting variables
+```
+{{ object.variable }}
+```
