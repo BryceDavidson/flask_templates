@@ -3,7 +3,7 @@ Basic flask app
 
 app.py
 ------
-app.py will start our flask server and serve up routes defined by us
+app.py will start our flask server and serve routes defined by us
 
 
 templates - folder
@@ -22,4 +22,6 @@ includes - folder
 includes are "partial" snippets of html that do not have to contain head information
 and will be referenced by other template files to include those snippets.
   SYNTAX:
+  """
   {% include 'includes/_somehtml.html' %}
+  """
