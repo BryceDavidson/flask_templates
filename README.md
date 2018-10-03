@@ -3,17 +3,16 @@ Basic flask app
 
 app.py
 ------
-app.py will start our flask server and serve routes defined by us
+app.py will start our flask server and serve routes
 
 
 /templates
 ------------------
-templates will store our html to be referenced and served from our app.py routes.
+templates will store our html to be referenced from app.py using "render_templates"
 
 /templates/layout.html
 ---------------------
-layout is a defined html "template" to be extended from other html files so as
-to write DRY code. To define a referenceable block within a template use flask syntax.
+layout is a defined html "template" to be extended from other html files.
 #### SYNTAX:
 ```
 {% block BLOCK_IDENTIFIER %}{% endblock %}
